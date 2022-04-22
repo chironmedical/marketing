@@ -6,7 +6,7 @@ export const Button = styled('button', {
   width: '220px',
   color: 'white',
   fontWeight: 'bold',
-  backgroundColor: '$deepblue600',
+  backgroundColor: '$deep-blue-600',
   borderRadius: '$custom',
   fontSize: '100%',
   cursor: 'pointer',
