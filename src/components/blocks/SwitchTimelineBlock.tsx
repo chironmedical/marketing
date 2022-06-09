@@ -2,7 +2,6 @@ import React, { useEffect } from 'react';
 import TableSwitchPlanButton from '../elements/TableSwitchPlanButton';
 import ProcedureTimelineCard from '../elements/ProcedureTimelineCard';
 import sortByKey from '../../libs/sortByKey';
-import ScrollReveal from 'scrollreveal';
 
 const SwitchTimelineBlock = ({
   tabs,
@@ -14,24 +13,32 @@ const SwitchTimelineBlock = ({
   isSelected,
   selectBlockFun,
 }: SwitchTimelineBlockProps): React.ReactElement => {
+  const refToComponent = React.useRef(null);
+
   const className = `${classValue}`;
   const [currentTab, setCurrentTab] = React.useState(0);
   const _stages = sortByKey(stages, 'tab');
 
   useEffect(() => {
-    ScrollReveal().reveal('.timeline-step', {
-      duration: 1800,
-      distance: '40px',
-      easing: 'cubic-bezier(0.165, 0.84, 0.44, 1)',
-      origin: 'bottom',
-      interval: 150,
-    });
+    (async () => {
+      if (refToComponent.current) {
+        const sr = (await import("scrollreveal")).default;
+        sr().reveal(".timeline-step", {
+          duration: 1800,
+          distance: "40px",
+          easing: "cubic-bezier(0.165, 0.84, 0.44, 1)",
+          origin: "bottom",
+          interval: 150,
+        });
+      }
+    })();
   }, []);
 
   return (
     <div
       className={`w-full ${className} ${builderMode ? (isSelected ? 'component-outline outline-selected' : 'component-outline') : ''}`}
       onClick={selectBlockFun}
+      ref={refToComponent}
     >
       <div className="flex flex-row justify-evenly mt-sm-card border-b border-solid border-black w-full">
         {
@@ -54,9 +61,8 @@ const SwitchTimelineBlock = ({
           )
         }
       </div>
-      {
-        tabs && (
-          <div className="w-full flex flex-col my-8">
+      {tabs && (
+        <div className="w-full flex flex-col my-8">
             {
               _stages[currentTab]['stages'].map((stage, stageIndex) => (
                 <ProcedureTimelineCard
