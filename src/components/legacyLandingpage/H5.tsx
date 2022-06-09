@@ -10,7 +10,7 @@ const H5 = ({ title, className }: H5Props):  React.ReactElement => {
   );
 };
 
-interface H5Props {
+export interface H5Props {
   title: string,
   className?: string,
 }

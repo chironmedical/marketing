@@ -49,7 +49,7 @@ const BodyCheckPlanBlock = ({
   )
 };
 
-interface BodyCheckPlanBlockProps {
+export interface BodyCheckPlanBlockProps {
   tabs: any
   table: any
   locale: string

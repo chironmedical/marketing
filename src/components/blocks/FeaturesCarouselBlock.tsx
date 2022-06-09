@@ -44,7 +44,7 @@ const FeaturesCarouselBlock = ({
   );
 };
 
-interface FeaturesCarouselBlockPrpos {
+export interface FeaturesCarouselBlockPrpos {
   aims: any
   classValue?: string
   locale: string

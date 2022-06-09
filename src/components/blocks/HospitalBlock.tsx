@@ -57,7 +57,7 @@ const HospitalBlock = ({
   );
 };
 
-interface HospitalBlockProps {
+export interface HospitalBlockProps {
   affiliatedHospitals: any
   locale: string
   classValue?: string

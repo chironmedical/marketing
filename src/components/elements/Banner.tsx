@@ -90,13 +90,13 @@ const Banner = ({
   );
 };
 
-interface i18nText {
+export interface i18nText {
   "zh-HK": string
   "zh-CN": string
   "en-US": string
 }
 
-interface BannerPrpos {
+export interface BannerPrpos {
   isImageBackground: boolean
   imageSrc: string
   title: string | i18nText

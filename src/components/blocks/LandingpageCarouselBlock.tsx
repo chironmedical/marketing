@@ -48,7 +48,7 @@ const LandingpageCarouselBlock = ({
 };
 
 
-interface LandingpageCarouselBlockProps {
+export interface LandingpageCarouselBlockProps {
   title: any
   landingpages: any
   locale: string

@@ -38,7 +38,7 @@ const addClassNameToArticle = (html) => {
   return processingHTML;
 }
 
-interface HTMLRenderProps {
+export interface HTMLRenderProps {
   content: string
   fontColor: string
   classValue?: string

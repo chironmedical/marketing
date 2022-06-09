@@ -33,7 +33,7 @@ const EmergencyContactCard = ({
   );
 };
 
-interface EmergencyContactCardProps {
+export interface EmergencyContactCardProps {
   iconSrc: string
   locale: string
   title: string

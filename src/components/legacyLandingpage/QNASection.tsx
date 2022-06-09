@@ -55,7 +55,7 @@ const QNASection = ({
   );
 };
 
-interface QNASectionProps {
+export interface QNASectionProps {
   title: string
   content: any
   className?: string

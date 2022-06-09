@@ -149,7 +149,7 @@ const AlignmentBlock = ({
   );
 };
 
-interface AlignmentBlockProps {
+export interface AlignmentBlockProps {
   imageSrc: string
   imageWidth: string
   imageHeight: string

@@ -39,7 +39,7 @@ const AdmissionProcedureCard = ({
   );
 };
 
-interface AdmissionProcedureCardProps {
+export interface AdmissionProcedureCardProps {
   title: any
   subtitle: any
   imageSrc: string

@@ -44,7 +44,7 @@ const VideoBlock = ({
   );
 };
 
-interface VideoBlockPrpos {
+export interface VideoBlockPrpos {
   videoUrl: string
   videoCover: string
   classValue: string

@@ -211,7 +211,7 @@ const HeaderNavigation = ({
   );
 };
 
-interface HeaderNavigationProps {
+export interface HeaderNavigationProps {
   locale: string
   localizedMetadata: any
   headerNavigations: any

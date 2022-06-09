@@ -122,7 +122,7 @@ const ClinicCard = ({
   );
 };
 
-interface ClinicCardProps {
+export interface ClinicCardProps {
   locale: string
   thumbnail: string
   name: string

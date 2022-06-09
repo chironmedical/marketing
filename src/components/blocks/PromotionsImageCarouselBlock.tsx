@@ -36,7 +36,7 @@ const PromotionsImageCarouselBlock = ({
   );
 };
 
-interface PromotionsImageCarouselBlockProps {
+export interface PromotionsImageCarouselBlockProps {
   promotions: any
   classValue?: string
 

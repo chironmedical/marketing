@@ -75,7 +75,7 @@ const PlanTable = ({
   )
 };
 
-interface PlanTableProps {
+export interface PlanTableProps {
   tableHeaders: any
   tableContents: any
   tableFooters: any

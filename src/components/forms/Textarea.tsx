@@ -31,7 +31,7 @@ const Textarea = ({
   );
 };
 
-interface TextareaProps {
+export interface TextareaProps {
   label: string
   value?: any
   setValue?: any

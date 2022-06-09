@@ -61,7 +61,7 @@ const Container = ({
   );
 }
 
-interface ContainerProps {
+export interface ContainerProps {
   classValue?: string
   width: number
   height: number

@@ -45,7 +45,7 @@ const IconCard = ({
   );
 };
 
-interface IconCardProps {
+export interface IconCardProps {
   iconSrc: string
   imageWidth: string
   imageHeight: string

@@ -12,7 +12,7 @@ const Paragraph = ({
   );
 };
 
-interface ParagraphProps {
+export interface ParagraphProps {
   content: any
   className?: string
 }

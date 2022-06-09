@@ -75,7 +75,7 @@ const MDTSwitchPlanBlock = ({
   )
 };
 
-interface MDTSwitchPlanBlockProps {
+export interface MDTSwitchPlanBlockProps {
   tabs: any
   buttons: any
   locale: string

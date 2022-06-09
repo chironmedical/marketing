@@ -56,7 +56,7 @@ const SocialResponsibilityCardBlock = ({
   );
 };
 
-interface SocialResponsibilityCardBlockProps {
+export interface SocialResponsibilityCardBlockProps {
   locale: string
   socialResponsibilities: any
   classValue?: string

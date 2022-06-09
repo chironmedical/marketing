@@ -52,7 +52,7 @@ const SocialResponsibilityCard = ({
   );
 };
 
-interface SocialResponsibilityCardProps {
+export interface SocialResponsibilityCardProps {
   socialResponsibility: any,
   locale: string
   classValue?: string

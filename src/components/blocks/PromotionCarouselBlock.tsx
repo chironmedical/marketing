@@ -52,7 +52,7 @@ const PromotionCarouselBlock = ({
   );
 };
 
-interface PromotionCarouselBlockProps {
+export interface PromotionCarouselBlockProps {
   promotions: Record<string, any>
   branchName: string
   locale: string

@@ -65,7 +65,7 @@ const SwitchTablePlanBlock = ({
   )
 };
 
-interface SwitchTablePlanBlockProps {
+export interface SwitchTablePlanBlockProps {
   tabs: any
 
   tableHeaders: any

@@ -90,7 +90,7 @@ const Pagination = ({
   );
 };
 
-interface PaginationProps {
+export interface PaginationProps {
   totalPages: number
   currentPage: number
   range: number

@@ -78,7 +78,7 @@ const FeaturesCarousel = ({
   );
 };
 
-interface FeaturesCarouselPrpos {
+export interface FeaturesCarouselPrpos {
   classValue?: string
   elements: any
 }

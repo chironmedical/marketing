@@ -10,7 +10,7 @@ const H3 = ({ title, className }: H3Props):  React.ReactElement => {
   );
 };
 
-interface H3Props {
+export interface H3Props {
   title: string
   className?: string
 }

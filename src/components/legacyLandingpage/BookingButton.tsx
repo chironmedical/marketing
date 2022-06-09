@@ -67,7 +67,7 @@ const BookingButton = ({
   );
 };
 
-interface BookingButtonProps {
+export interface BookingButtonProps {
   title: string
   icon: string
   className?: string

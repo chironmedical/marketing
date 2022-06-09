@@ -115,7 +115,7 @@ const Carousel = ({
   );
 };
 
-interface CarouselProps {
+export interface CarouselProps {
   title?: string
   rows?: number
   slidesToShow?: number

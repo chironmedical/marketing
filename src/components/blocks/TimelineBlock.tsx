@@ -33,7 +33,7 @@ const TimelineBlock = ({
   );
 };
 
-interface TimelineBlockProps {
+export interface TimelineBlockProps {
   stages: any
   ellipseIcon: string
   locale: string

@@ -78,7 +78,7 @@ const EMSCarousel = ({
   );
 };
 
-interface EMSCarouselProps {
+export interface EMSCarouselProps {
   elements: any
   classValue?: string
 }

@@ -38,7 +38,7 @@ const ArticleCard = ({
   );
 };
 
-interface ArticleCardProps {
+export interface ArticleCardProps {
   title: string
   abstract: string
   author: any

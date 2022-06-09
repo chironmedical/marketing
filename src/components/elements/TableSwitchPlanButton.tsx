@@ -38,7 +38,7 @@ const TableSwitchPlanButton = ({
   );
 };
 
-interface TableSwitchPlanButtonPrpos {
+export interface TableSwitchPlanButtonPrpos {
   iconSrc?: string
   unselectedIconSrc?: string
   selected?: boolean

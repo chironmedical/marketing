@@ -83,7 +83,7 @@ const PassageCard = ({
   );
 };
 
-interface PassageCardProps {
+export interface PassageCardProps {
   imageSrc: string
   postedAt: string
   title: string

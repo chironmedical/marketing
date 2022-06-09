@@ -82,7 +82,7 @@ const SwitchTimelineBlock = ({
   )
 };
 
-interface SwitchTimelineBlockProps {
+export interface SwitchTimelineBlockProps {
   tabs: any
   ellipseIcon: string
   stages: any

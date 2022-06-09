@@ -147,7 +147,7 @@ const ContactUs = ({
   )
 }
 
-interface ContactUsProps {
+export interface ContactUsProps {
   locale: string
   latitude: number
   longitude: number

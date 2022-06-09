@@ -74,7 +74,7 @@ const RelatedArticlesBlock = ({
   );
 };
 
-interface RelatedArticlesBlockProps {
+export interface RelatedArticlesBlockProps {
   articles: Record<string, any>
   branchName: string
   person: Record<string, any>

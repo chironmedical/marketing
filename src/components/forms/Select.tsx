@@ -36,7 +36,7 @@ const Select = ({
   );
 };
 
-interface SelectProps {
+export interface SelectProps {
   label: string
   required?: boolean
   options: Record<string, any>

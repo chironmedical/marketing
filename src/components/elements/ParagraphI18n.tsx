@@ -27,7 +27,7 @@ const ParagraphI18n = ({
   );
 }
 
-interface ParagraphI18nProp {
+export interface ParagraphI18nProp {
   locale: string
   text: any
   fontColor: string

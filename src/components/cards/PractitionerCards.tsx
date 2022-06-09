@@ -37,7 +37,7 @@ const PractitionerCards = ({
   );
 };
 
-interface PractitionerCardsProps {
+export interface PractitionerCardsProps {
   people: Record<string, any>
   locale?: string
   classValue?: string

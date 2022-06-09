@@ -109,7 +109,7 @@ const ImageCarousel = ({
   );
 };
 
-interface ImageCarouselProps {
+export interface ImageCarouselProps {
   currentSlide: any
   setCurrentSlide: any
   postedAt: string

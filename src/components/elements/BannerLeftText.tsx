@@ -39,7 +39,7 @@ const BannerLeftText = ({
   );
 };
 
-interface BannerLeftTextPrpos {
+export interface BannerLeftTextPrpos {
   cover: string
   mobileCover: string
   title: any

@@ -49,7 +49,7 @@ const DownloadCard = ({
   );
 };
 
-interface DownloadCardProps {
+export interface DownloadCardProps {
   title: string
   image: string
   href: string

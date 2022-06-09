@@ -24,7 +24,7 @@ const Paragraph = ({
   );
 }
 
-interface ParagraphProp {
+export interface ParagraphProp {
   text: string
   fontColor: string
   fontSize: string

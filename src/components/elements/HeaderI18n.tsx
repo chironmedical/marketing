@@ -72,7 +72,7 @@ const HeaderI18n = ({
   );
 }
 
-interface HeaderI18nProp {
+export interface HeaderI18nProp {
   locale: string
   text: string
   fontColor: string

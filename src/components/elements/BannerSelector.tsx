@@ -89,13 +89,13 @@ const BannerSelector = ({
   );
 };
 
-interface i18nText {
+export interface i18nText {
   "zh-HK": string
   "zh-CN": string
   "en-US": string
 }
 
-interface BannerSelectorPrpos {
+export interface BannerSelectorPrpos {
   isImageBackground: boolean
   imageSrc: string
   title: any

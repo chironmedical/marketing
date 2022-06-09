@@ -137,7 +137,7 @@ const ServiceDetailsCard = ({
   );
 };
 
-interface ServiceDetailsCardProps {
+export interface ServiceDetailsCardProps {
   title: any
   locale: string
   haveServiceDetails: boolean

@@ -77,7 +77,7 @@ const PromotionCardBlock = ({
   );
 };
 
-interface PromotionCardBlockProps {
+export interface PromotionCardBlockProps {
   promotions: any
   locale: string
   classValue?: string

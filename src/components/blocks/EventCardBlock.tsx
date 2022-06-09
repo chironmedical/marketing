@@ -56,7 +56,7 @@ const EventCardBlock = ({
   );
 };
 
-interface EventCardBlockProps {
+export interface EventCardBlockProps {
   locale: string
   events: any
   classValue?: string

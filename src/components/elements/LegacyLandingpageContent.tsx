@@ -154,7 +154,7 @@ const LegacyLandingpageContent = ({
   );
 };
 
-interface LegacyLandingpageContentProps {
+export interface LegacyLandingpageContentProps {
   innerContent: any
   locale: string
   classValue: string

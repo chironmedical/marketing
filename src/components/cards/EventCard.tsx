@@ -53,7 +53,7 @@ const EventCard = ({
   );
 };
 
-interface EventCardProps {
+export interface EventCardProps {
   event: any,
   locale: string
   classValue?: string

@@ -86,7 +86,7 @@ const BookingCard = ({
   );
 };
 
-interface BookingCardProps {
+export interface BookingCardProps {
   title: string
   clinics: any
   whatsapp: string

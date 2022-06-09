@@ -25,7 +25,7 @@ const FeaturesCard = ({
   );
 };
 
-interface FeaturesCardProps {
+export interface FeaturesCardProps {
   iconSrc: string
   title: string
   subtitle: string

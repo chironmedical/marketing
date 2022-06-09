@@ -47,7 +47,7 @@ const RelatedPromotionsBlock = ({
   );
 };
 
-interface RelatedPromotionsBlockProps {
+export interface RelatedPromotionsBlockProps {
   promotions: Record<string, any>
   locale: string
   classValue?: string

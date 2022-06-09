@@ -114,7 +114,7 @@ const Blocks = ({ _blocks, builderMode = false }: BlocksProps ): React.ReactElem
   );
 }
 
-interface BlocksProps {
+export interface BlocksProps {
   _blocks: any
   builderMode: boolean
 }

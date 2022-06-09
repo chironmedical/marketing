@@ -101,7 +101,7 @@ const FooterNavigation = ({
   );
 };
 
-interface FooterNavigationProps {
+export interface FooterNavigationProps {
   locale: string
   footerNavigations: any
 }

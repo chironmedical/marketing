@@ -173,7 +173,7 @@ const ArticleCardBlockByTag = ({
   );
 };
 
-interface ArticleCardBlockByTagProps {
+export interface ArticleCardBlockByTagProps {
   articles: any
   locale: string
   classValue?: string

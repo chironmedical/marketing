@@ -145,7 +145,7 @@ const DoctorCardBlock = ({
   );
 };
 
-interface DoctorCardBlockProps {
+export interface DoctorCardBlockProps {
   doctors: any
   locale: string
   classValue: string

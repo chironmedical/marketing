@@ -60,7 +60,7 @@ const BodyCheckCard = ({
   );
 };
 
-interface BodyCheckCardProps {
+export interface BodyCheckCardProps {
   price: string
   title: string
   imageSrc: string

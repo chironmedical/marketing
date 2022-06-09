@@ -83,7 +83,7 @@ const DoctorCarouselBlock = ({
 };
 
 
-interface DoctorCarouselBlockProps {
+export interface DoctorCarouselBlockProps {
   title: any
   subtitle: any
   people: any

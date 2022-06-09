@@ -149,7 +149,7 @@ const CollapseTable = ({
   )
 };
 
-interface CollapseTableProps {
+export interface CollapseTableProps {
   table: any
   currentTab: number
   locale: string

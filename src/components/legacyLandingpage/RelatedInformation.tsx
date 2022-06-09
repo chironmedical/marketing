@@ -94,7 +94,7 @@ const RelatedInformation = ({
   );
 };
 
-interface RelatedInformationProps {
+export interface RelatedInformationProps {
   navigations: any
   expandRelatedInformation: any
   changeExpandRelatedInformation: any

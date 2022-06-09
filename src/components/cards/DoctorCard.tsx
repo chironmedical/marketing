@@ -87,7 +87,7 @@ const DoctorCard = ({
   );
 };
 
-interface DoctorCardProps {
+export interface DoctorCardProps {
   doctor: any
   locale: string
   classValue?: string

@@ -139,7 +139,7 @@ const Content = ({ contents = "" }: ContentProps):  React.ReactElement => {
   );
 }
 
-interface ContentProps {
+export interface ContentProps {
   contents: string
 }
 

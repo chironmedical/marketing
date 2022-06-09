@@ -35,7 +35,7 @@ const Input = ({
   );
 };
 
-interface InputPrpos {
+export interface InputPrpos {
   label: string
   type: string
   value?: any

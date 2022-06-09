@@ -133,7 +133,7 @@ const ContactUsImageSlide = ({
   )
 }
 
-interface ContactUsImageSlideProps {
+export interface ContactUsImageSlideProps {
   locale: string
   builderMode: boolean
   isSelected: boolean

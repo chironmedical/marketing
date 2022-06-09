@@ -81,7 +81,7 @@ const Table = ({
   )
 };
 
-interface TableProps {
+export interface TableProps {
   tableHeader: any
   tableContent: any
   tableFooter: any

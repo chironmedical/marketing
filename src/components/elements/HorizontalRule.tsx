@@ -15,7 +15,7 @@ const HorizontalRule = ({
   );
 }
 
-interface HorizontalRuleProps {
+export interface HorizontalRuleProps {
   classValue?: string
   builderMode: boolean
   isSelected: boolean

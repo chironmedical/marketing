@@ -113,7 +113,7 @@ const LandingPageCardBlock = ({
   );
 };
 
-interface LandingPageCardBlockProps {
+export interface LandingPageCardBlockProps {
   locale: string
   branches: any
   landingpages: any

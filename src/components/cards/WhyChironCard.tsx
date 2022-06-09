@@ -53,7 +53,7 @@ const WhyChironCard = ({
   );
 };
 
-interface WhyChironCardProps {
+export interface WhyChironCardProps {
   title: any
   locale: string
   whyChironList: Record<string, any>

@@ -51,7 +51,7 @@ const SwitchPlanBlock = ({
   )
 };
 
-interface SwitchPlanBlockProps {
+export interface SwitchPlanBlockProps {
   tabs: any
   locale: string
   classValue?: string

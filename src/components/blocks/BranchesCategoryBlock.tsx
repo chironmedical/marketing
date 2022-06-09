@@ -57,7 +57,7 @@ const BranchesCategoryBlock = ({
   );
 };
 
-interface BranchesCategoryBlockProps {
+export interface BranchesCategoryBlockProps {
   branches: any
   classValue?: string
   locale: string

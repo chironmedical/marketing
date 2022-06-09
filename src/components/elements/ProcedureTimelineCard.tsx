@@ -36,7 +36,7 @@ const ProcedureTimelineCard = ({
   );
 };
 
-interface ProcedureTimelineCardProps {
+export interface ProcedureTimelineCardProps {
   number: number
   title: string
   content: string

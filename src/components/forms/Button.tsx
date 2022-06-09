@@ -18,7 +18,7 @@ const Button = ({
   );
 };
 
-interface ButtonProps {
+export interface ButtonProps {
   title: string
   classValue: string
   textSize?: string

@@ -10,7 +10,7 @@ const H4 = ({ title, className }: H4Props):  React.ReactElement => {
   );
 };
 
-interface H4Props {
+export interface H4Props {
   title: string,
   className?: string,
 }

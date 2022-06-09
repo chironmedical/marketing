@@ -35,7 +35,7 @@ const ImageSection = ({
   );
 };
 
-interface ImageSectionProps {
+export interface ImageSectionProps {
   title: string
   content: any
   itemsPerRow: number

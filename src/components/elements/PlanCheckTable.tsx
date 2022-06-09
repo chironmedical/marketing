@@ -52,7 +52,7 @@ const PlanCheckTable = ({
   );
 }
 
-interface PlanCheckTableProp {
+export interface PlanCheckTableProp {
   planLists: any
   tableCentent: any
   classValue?: string

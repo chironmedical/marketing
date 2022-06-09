@@ -45,7 +45,7 @@ const PostInfo = ({
   );
 };
 
-interface PostInfoProps {
+export interface PostInfoProps {
   date: string
   keywords: string[]
   builderMode: boolean

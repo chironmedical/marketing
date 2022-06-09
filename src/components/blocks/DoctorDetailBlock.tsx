@@ -47,7 +47,7 @@ const DoctorDetailBlock = ({
   )
 }
 
-interface DoctorDetailBlockProps {
+export interface DoctorDetailBlockProps {
   person: any
   locale: string
   classValue?: string

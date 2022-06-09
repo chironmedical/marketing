@@ -45,7 +45,7 @@ const ServiceCategoryBlock = ({
   );
 };
 
-interface ServiceCategoryBlockProps {
+export interface ServiceCategoryBlockProps {
   landingpages: any
   classValue?: string
   locale: string

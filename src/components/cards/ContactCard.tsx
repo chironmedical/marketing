@@ -99,7 +99,7 @@ const ContactCard = ({
   );
 };
 
-interface ContactCardProps {
+export interface ContactCardProps {
   icon: string
   title: string
   locale: string

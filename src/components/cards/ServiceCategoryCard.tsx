@@ -56,7 +56,7 @@ const ServiceCategoryCard = ({
   );
 };
 
-interface ServiceCategoryCardProps {
+export interface ServiceCategoryCardProps {
   name: string
   icon?: string
   image: string

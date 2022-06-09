@@ -35,7 +35,7 @@ const InsuranceCard = ({
   );
 };
 
-interface InsuranceCardProps {
+export interface InsuranceCardProps {
   imageSrc: string
   companyName: any
   href: any

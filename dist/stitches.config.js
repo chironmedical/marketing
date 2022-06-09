@@ -1,6 +1,9 @@
+"use strict";
 var _a;
-import { createStitches } from "@stitches/react";
-export var styled = (_a = createStitches({
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.config = exports.createTheme = exports.theme = exports.getCssText = exports.keyframes = exports.globalCss = exports.css = exports.styled = void 0;
+var react_1 = require("@stitches/react");
+exports.styled = (_a = (0, react_1.createStitches)({
     theme: {
         colors: {
             'deep-blue-100': '#8b9ab5',
@@ -29,4 +32,4 @@ export var styled = (_a = createStitches({
     media: {
         bp1: '(min-width: 480px)',
     },
-}), _a.styled), css = _a.css, globalCss = _a.globalCss, keyframes = _a.keyframes, getCssText = _a.getCssText, theme = _a.theme, createTheme = _a.createTheme, config = _a.config;
+}), _a.styled), exports.css = _a.css, exports.globalCss = _a.globalCss, exports.keyframes = _a.keyframes, exports.getCssText = _a.getCssText, exports.theme = _a.theme, exports.createTheme = _a.createTheme, exports.config = _a.config;

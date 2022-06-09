@@ -98,7 +98,7 @@ const ArticleCardBlock = ({
   );
 };
 
-interface ArticleCardBlockProps {
+export interface ArticleCardBlockProps {
   articles: any
   locale: string
   classValue?: string

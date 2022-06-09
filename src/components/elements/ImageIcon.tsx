@@ -28,7 +28,7 @@ const ImageIcon = ({
   );
 }
 
-interface ImageIconProp {
+export interface ImageIconProp {
   locale: string
   imageSrc: string
   title: string

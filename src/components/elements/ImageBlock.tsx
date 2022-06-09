@@ -30,7 +30,7 @@ const ImageBlock = ({
   );
 }
 
-interface ImageBlockProp {
+export interface ImageBlockProp {
   imageSrc: string
   alt: string
   srcSet: string

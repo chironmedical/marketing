@@ -47,7 +47,7 @@ const SlideBanner = ({
   );
 };
 
-interface SlideBannerProps {
+export interface SlideBannerProps {
   slides: any
   details: any
   imageSrc: string

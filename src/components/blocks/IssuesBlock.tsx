@@ -35,7 +35,7 @@ const IssuesBlock = ({
   );
 }
 
-interface IssuesBlockProp {
+export interface IssuesBlockProp {
   issues: any
   classValue?: string
   builderMode: boolean

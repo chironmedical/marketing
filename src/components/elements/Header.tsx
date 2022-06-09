@@ -71,7 +71,7 @@ const Header = ({
   );
 }
 
-interface HeaderProp {
+export interface HeaderProp {
   text: string
   fontColor: string
   textAlign: string

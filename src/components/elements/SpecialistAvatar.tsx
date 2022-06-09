@@ -33,7 +33,7 @@ const SpecialistAvatar = ({
   );
 };
 
-interface SpecialistAvatarProps {
+export interface SpecialistAvatarProps {
   pathId: string
   clipPathId: string
   imageSrc: string

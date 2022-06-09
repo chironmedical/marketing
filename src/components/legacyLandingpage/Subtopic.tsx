@@ -13,7 +13,7 @@ const Subtopic = ({
   );
 };
 
-interface SubtopicProps {
+export interface SubtopicProps {
   title: string
   className?: string
 }

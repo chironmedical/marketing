@@ -76,7 +76,7 @@ const ServiceRangeCarouselBlock = ({
 };
 
 
-interface ServiceRangeCarouselBlockProps {
+export interface ServiceRangeCarouselBlockProps {
   title: any
   subtitle: any
   branches: any

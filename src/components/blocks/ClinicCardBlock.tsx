@@ -60,7 +60,7 @@ const ClinicCardBlock = ({
   );
 };
 
-interface ClinicCardBlockProps {
+export interface ClinicCardBlockProps {
   locale: string
   clinics: any
   classValue?: string

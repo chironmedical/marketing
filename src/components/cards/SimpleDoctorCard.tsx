@@ -48,7 +48,7 @@ const SimpleDoctorCard = ({
   );
 };
 
-interface SimpleDoctorCardProps {
+export interface SimpleDoctorCardProps {
   image: string
   name: string
   role: string

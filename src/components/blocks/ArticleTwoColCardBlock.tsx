@@ -70,7 +70,7 @@ const ArticleTwoColCardBlock = ({
   )
 };
 
-interface ArticleTwoColCardBlockProps {
+export interface ArticleTwoColCardBlockProps {
   articles: any
   classValue?: string
   locale: string

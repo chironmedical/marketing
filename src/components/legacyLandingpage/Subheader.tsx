@@ -13,7 +13,7 @@ const Subheader = ({
   );
 };
 
-interface SubheaderProps {
+export interface SubheaderProps {
   title: string
   className?: string
 }

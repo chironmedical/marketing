@@ -34,7 +34,7 @@ const QuoteCard = ({
   );
 };
 
-interface QuoteCardProps {
+export interface QuoteCardProps {
   imageSrc: string
   content: string
   classValue?: string

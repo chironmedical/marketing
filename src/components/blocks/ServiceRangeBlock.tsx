@@ -83,7 +83,7 @@ const ServiceRangeBlock = ({
   );
 };
 
-interface ServiceRangeBlockProps {
+export interface ServiceRangeBlockProps {
   branches: Record<string, any>
   serviceRangeImg: string
   locale: string

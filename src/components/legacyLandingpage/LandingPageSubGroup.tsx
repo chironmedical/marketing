@@ -87,7 +87,7 @@ const FlexibleSubGroup = ({
   );
 };
 
-interface FlexibleSubGroupProps {
+export interface FlexibleSubGroupProps {
   tableContent?: any
   highlightLastItem?: boolean
   alignment?: string
