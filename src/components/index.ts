@@ -1,102 +1,108 @@
-export * from "./legacyLandingpage/QNASection";
-export * from "./legacyLandingpage/H5";
-export * from "./legacyLandingpage/Content";
-export * from "./legacyLandingpage/LandingPageSubGroup";
-export * from "./legacyLandingpage/H3";
-export * from "./legacyLandingpage/Paragraph";
-export * from "./legacyLandingpage/Subtopic";
-export * from "./legacyLandingpage/RelatedInformation";
-export * from "./legacyLandingpage/TableSwitchPlanButton";
-export * from "./legacyLandingpage/BookingButton";
-export * from "./legacyLandingpage/H4";
-export * from "./legacyLandingpage/Subheader";
-export * from "./legacyLandingpage/ImageSection";
-export * from "./navigation/HeaderNavigation";
-export * from "./navigation/FooterNavigation";
-export * from "./forms/Input";
-export * from "./forms/Select";
-export * from "./forms/Textarea";
-export * from "./forms/Button";
-export * from "./blocks/ServiceRangeCarouselBlock";
-export * from "./blocks/FeaturesCarouselBlock";
-export * from "./blocks/ContactUsImageSlide";
-export * from "./blocks/ArticleCardBlock";
-export * from "./blocks/DoctorCarouselBlock";
-export * from "./blocks/AlignmentBlock";
-export * from "./blocks/MDTSwitchPlanBlock";
-export * from "./blocks/ArticleTwoColCardBlock";
-export * from "./blocks/RelatedPromotionsBlock";
-export * from "./blocks/ClinicCardBlock";
-export * from "./blocks/TimelineBlock";
-export * from "./blocks/ArticleCardBlockByTag";
-export * from "./blocks/BranchesCategoryBlock";
-export * from "./blocks/ContactUs";
-export * from "./blocks/DoctorCardBlock";
-export * from "./blocks/EventCardBlock";
-export * from "./blocks/SwitchTablePlanBlock";
-export * from "./blocks/LandingPageCardBlock";
-export * from "./blocks/BodyCheckPlanBlock";
-export * from "./blocks/VideoBlock";
-export * from "./blocks/ServiceCategoryBlock";
-export * from "./blocks/SocialResponsibilityCardBlock";
-export * from "./blocks/ServiceRangeBlock";
-export * from "./blocks/HospitalBlock";
-export * from "./blocks/LandingpageCarouselBlock";
-export * from "./blocks/PromotionsImageCarouselBlock";
-export * from "./blocks/DoctorDetailBlock";
-export * from "./blocks/IssuesBlock";
-export * from "./blocks/PromotionCarouselBlock";
-export * from "./blocks/SwitchTimelineBlock";
-export * from "./blocks/RelatedArticlesBlock";
-export * from "./blocks/SwitchPlanBlock";
-export * from "./blocks/PromotionCardBlock";
-export * from "./posts/PostInfo";
-export * from "./cards/WhyChironCard";
-export * from "./cards/PractitionerCards";
-export * from "./cards/SimpleDoctorCard";
-export * from "./cards/EmergencyContactCard";
-export * from "./cards/BodyCheckCard";
-export * from "./cards/ContactCard";
-export * from "./cards/BookingCard";
-export * from "./cards/ServiceDetailsCard";
-export * from "./cards/InsuranceCard";
-export * from "./cards/PassageCard";
-export * from "./cards/EventCard";
-export * from "./cards/DownloadCard";
-export * from "./cards/AdmissionProcedureCard";
-export * from "./cards/ArticleCard";
-export * from "./cards/ClinicCard";
-export * from "./cards/DoctorCard";
-export * from "./cards/IconCard";
-export * from "./cards/SocialResponsibilityCard";
-export * from "./cards/ServiceCategoryCard";
-export * from "./elements/ParagraphI18n";
-export * from "./elements/DoctorDetailsCard";
-export * from "./elements/ImageBlock";
-export * from "./elements/Banner";
-export * from "./elements/ImageIcon";
-export * from "./elements/Paragraph";
-export * from "./elements/Header";
-export * from "./elements/EMSCarousel";
-export * from "./elements/CollapseTable";
-export * from "./elements/FeaturesCard";
-export * from "./elements/Container";
-export * from "./elements/BannerSelector";
-export * from "./elements/PlanCheckTable";
-export * from "./elements/TableSwitchPlanButton";
-export * from "./elements/SpecialistAvatar";
-export * from "./elements/BannerLeftText";
-export * from "./elements/ProcedureTimelineCard";
-export * from "./elements/Carousel";
-export * from "./elements/HTMLRender";
-export * from "./elements/Pagination";
-export * from "./elements/ImageCarousel";
-export * from "./elements/HeaderI18n";
-export * from "./elements/FeaturesCarousel";
-export * from "./elements/Table";
-export * from "./elements/SlideBanner";
-export * from "./elements/HorizontalRule";
-export * from "./elements/Blocks";
-export * from "./elements/QuoteCard";
-export * from "./elements/LegacyLandingpageContent";
-export * from "./elements/PlanTable";
+// export { default as QNASection } from "./legacyLandingpage/QNASection"
+// export { default as H5 } from "./legacyLandingpage/H5"
+// export { default as Content } from "./legacyLandingpage/Content"
+// export { default as LandingPageSubGroup } from "./legacyLandingpage/LandingPageSubGroup"
+// export { default as H3 } from "./legacyLandingpage/H3"
+// export { default as Paragraph } from "./legacyLandingpage/Paragraph"
+// export { default as Subtopic } from "./legacyLandingpage/Subtopic"
+// export { default as RelatedInformation } from "./legacyLandingpage/RelatedInformation"
+// export { default as TableSwitchPlanButton } from "./legacyLandingpage/TableSwitchPlanButton"
+// export { default as BookingButton } from "./legacyLandingpage/BookingButton"
+// export { default as H4 } from "./legacyLandingpage/H4"
+// export { default as Subheader } from "./legacyLandingpage/Subheader"
+// export { default as ImageSection } from "./legacyLandingpage/ImageSection"
+
+export { default as HeaderNavigation } from "./navigation/HeaderNavigation"
+export { default as FooterNavigation } from "./navigation/FooterNavigation"
+
+export { default as Input } from "./forms/Input"
+export { default as Select } from "./forms/Select"
+export { default as Textarea } from "./forms/Textarea"
+export { default as Button } from "./forms/Button"
+
+export { default as ServiceRangeCarouselBlock } from "./blocks/ServiceRangeCarouselBlock"
+export { default as FeaturesCarouselBlock } from "./blocks/FeaturesCarouselBlock"
+export { default as ContactUsImageSlide } from "./blocks/ContactUsImageSlide"
+export { default as ArticleCardBlock } from "./blocks/ArticleCardBlock"
+export { default as DoctorCarouselBlock } from "./blocks/DoctorCarouselBlock"
+export { default as AlignmentBlock } from "./blocks/AlignmentBlock"
+export { default as MDTSwitchPlanBlock } from "./blocks/MDTSwitchPlanBlock"
+export { default as ArticleTwoColCardBlock } from "./blocks/ArticleTwoColCardBlock"
+export { default as RelatedPromotionsBlock } from "./blocks/RelatedPromotionsBlock"
+export { default as ClinicCardBlock } from "./blocks/ClinicCardBlock"
+export { default as TimelineBlock } from "./blocks/TimelineBlock"
+export { default as ArticleCardBlockByTag } from "./blocks/ArticleCardBlockByTag"
+export { default as BranchesCategoryBlock } from "./blocks/BranchesCategoryBlock"
+export { default as ContactUs } from "./blocks/ContactUs"
+export { default as DoctorCardBlock } from "./blocks/DoctorCardBlock"
+export { default as EventCardBlock } from "./blocks/EventCardBlock"
+export { default as SwitchTablePlanBlock } from "./blocks/SwitchTablePlanBlock"
+export { default as LandingPageCardBlock } from "./blocks/LandingPageCardBlock"
+export { default as BodyCheckPlanBlock } from "./blocks/BodyCheckPlanBlock"
+export { default as VideoBlock } from "./blocks/VideoBlock"
+export { default as ServiceCategoryBlock } from "./blocks/ServiceCategoryBlock"
+export { default as SocialResponsibilityCardBlock } from "./blocks/SocialResponsibilityCardBlock"
+export { default as ServiceRangeBlock } from "./blocks/ServiceRangeBlock"
+export { default as HospitalBlock } from "./blocks/HospitalBlock"
+export { default as LandingpageCarouselBlock } from "./blocks/LandingpageCarouselBlock"
+export { default as PromotionsImageCarouselBlock } from "./blocks/PromotionsImageCarouselBlock"
+export { default as DoctorDetailBlock } from "./blocks/DoctorDetailBlock"
+export { default as IssuesBlock } from "./blocks/IssuesBlock"
+export { default as PromotionCarouselBlock } from "./blocks/PromotionCarouselBlock"
+export { default as SwitchTimelineBlock } from "./blocks/SwitchTimelineBlock"
+export { default as RelatedArticlesBlock } from "./blocks/RelatedArticlesBlock"
+export { default as SwitchPlanBlock } from "./blocks/SwitchPlanBlock"
+export { default as PromotionCardBlock } from "./blocks/PromotionCardBlock"
+
+export { default as PostInfo } from "./posts/PostInfo"
+
+export { default as WhyChironCard } from "./cards/WhyChironCard"
+export { default as PractitionerCards } from "./cards/PractitionerCards"
+export { default as SimpleDoctorCard } from "./cards/SimpleDoctorCard"
+export { default as EmergencyContactCard } from "./cards/EmergencyContactCard"
+export { default as BodyCheckCard } from "./cards/BodyCheckCard"
+export { default as ContactCard } from "./cards/ContactCard"
+export { default as BookingCard } from "./cards/BookingCard"
+export { default as ServiceDetailsCard } from "./cards/ServiceDetailsCard"
+export { default as InsuranceCard } from "./cards/InsuranceCard"
+export { default as PassageCard } from "./cards/PassageCard"
+export { default as EventCard } from "./cards/EventCard"
+export { default as DownloadCard } from "./cards/DownloadCard"
+export { default as AdmissionProcedureCard } from "./cards/AdmissionProcedureCard"
+export { default as ArticleCard } from "./cards/ArticleCard"
+export { default as ClinicCard } from "./cards/ClinicCard"
+export { default as DoctorCard } from "./cards/DoctorCard"
+export { default as IconCard } from "./cards/IconCard"
+export { default as SocialResponsibilityCard } from "./cards/SocialResponsibilityCard"
+export { default as ServiceCategoryCard } from "./cards/ServiceCategoryCard"
+
+export { default as ParagraphI18n } from "./elements/ParagraphI18n"
+export { default as DoctorDetailsCard } from "./elements/DoctorDetailsCard"
+export { default as ImageBlock } from "./elements/ImageBlock"
+export { default as Banner } from "./elements/Banner"
+export { default as ImageIcon } from "./elements/ImageIcon"
+export { default as Paragraph } from "./elements/Paragraph"
+export { default as Header } from "./elements/Header"
+export { default as EMSCarousel } from "./elements/EMSCarousel"
+export { default as CollapseTable } from "./elements/CollapseTable"
+export { default as FeaturesCard } from "./elements/FeaturesCard"
+export { default as Container } from "./elements/Container"
+export { default as BannerSelector } from "./elements/BannerSelector"
+export { default as PlanCheckTable } from "./elements/PlanCheckTable"
+export { default as TableSwitchPlanButton } from "./elements/TableSwitchPlanButton"
+export { default as SpecialistAvatar } from "./elements/SpecialistAvatar"
+export { default as BannerLeftText } from "./elements/BannerLeftText"
+export { default as ProcedureTimelineCard } from "./elements/ProcedureTimelineCard"
+export { default as Carousel } from "./elements/Carousel"
+export { default as HTMLRender } from "./elements/HTMLRender"
+export { default as Pagination } from "./elements/Pagination"
+export { default as ImageCarousel } from "./elements/ImageCarousel"
+export { default as HeaderI18n } from "./elements/HeaderI18n"
+export { default as FeaturesCarousel } from "./elements/FeaturesCarousel"
+export { default as Table } from "./elements/Table"
+export { default as SlideBanner } from "./elements/SlideBanner"
+export { default as HorizontalRule } from "./elements/HorizontalRule"
+export { default as Blocks } from "./elements/Blocks"
+export { default as QuoteCard } from "./elements/QuoteCard"
+export { default as LegacyLandingpageContent } from "./elements/LegacyLandingpageContent"
+export { default as PlanTable } from "./elements/PlanTable"
