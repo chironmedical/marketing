@@ -80,7 +80,7 @@ const Blocks = ({ _blocks, builderMode = false }: BlocksProps ): React.ReactElem
         _blocks.map((block, idx) => {
           try {
             const { componentName, children, contents } = block;
-            const { Component } = blockTypeComponentMap[componentName];
+            const Component = blockTypeComponentMap[componentName];
             const props = getProps(contents);
             return (
               <Component
