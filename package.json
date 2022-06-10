@@ -17,7 +17,6 @@
     "react-dom": "^17.0.0",
     "react-hot-toast": "^2.1.1",
     "react-modal-video": "^1.2.8",
-    "react-scripts": "5.0.1",
     "react-select": "^5.2.0",
     "react-slick": "^0.28.1",
     "scrollreveal": "^4.0.9",
@@ -84,6 +83,7 @@
     "postcss": "^8.4.14",
     "semantic-release": "^19.0.2",
     "tailwindcss": "^3.0.24",
-    "webpack": "^5.72.0"
+    "webpack": "^5.72.0",
+    "react-scripts": "5.0.1"
   }
 }
