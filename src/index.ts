@@ -1,3 +1,3 @@
 export * from "./components";
 
-export { PageEditorProvider } from "./contexts/pageEditor";
+export { PageEditorProvider, PageEditorContext } from "./contexts/pageEditor";
